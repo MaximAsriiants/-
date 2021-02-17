@@ -1,0 +1,9 @@
+@font-face {
+    font-family: '11528';
+    src: url('/fonts/11528.eot');
+    src: url('/fonts/11528.eot') format('embedded-opentype'),
+         url('/fonts/11528.woff2') format('woff2'),
+         url('/fonts/11528.woff') format('woff'),
+         url('/fonts/11528.ttf') format('truetype'),
+         url('/fonts/11528.svg#11528') format('svg');
+}

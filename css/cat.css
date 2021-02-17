@@ -1,0 +1,58 @@
+body{
+	overflow-x:hidden;
+}
+
+.cat-button{
+	height:150px;
+	width:150px;
+	background: rgb(81,60,144);
+	background: linear-gradient(160deg, rgba(81,60,144,1) 0%, rgba(94,137,189,1) 100%);
+	border:0;
+	-webkit-box-shadow: 1px 6px 5px 0px rgba(0,0,0,0.52);
+	-moz-box-shadow: 1px 6px 5px 0px rgba(0,0,0,0.52);
+	box-shadow: 1px 6px 5px 0px rgba(0,0,0,0.52);
+}
+
+.cat-button img{
+	width:65%;
+}
+
+.left-top-cat{
+	background-color: #5c5c5c;
+	border-bottom: 15px solid #343434;
+	font-family: '8483';
+}
+
+.right-top-cat{
+	background-color: #ce8383;
+	font-family: '8483';
+}
+
+.left-cat{
+	background-color: #b1c3e9;
+	color:white !important;
+	-webkit-box-shadow: 9px -4px 9px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 9px -4px 9px -4px rgba(0,0,0,0.75);
+	box-shadow: 9px -4px 9px -4px rgba(0,0,0,0.75);
+	z-index: 5;
+}
+
+.active_cat{
+	background: none;
+	transition-duration: .3s;
+	background-color: #ce8383 !important;
+}
+
+.sel_item{
+	border: 1px solid black;
+	all:unset;
+	background-color: white;
+	width:200px;
+	height: 180px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.part_block{
+	text-align: center;
+}

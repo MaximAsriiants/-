@@ -1,0 +1,9 @@
+@font-face {
+    font-family: '8483';
+    src: url('/fonts/8483.eot');
+    src: url('/fonts/8483.eot') format('embedded-opentype'),
+         url('/fonts/8483.woff2') format('woff2'),
+         url('/fonts/8483.woff') format('woff'),
+         url('/fonts/8483.ttf') format('truetype'),
+         url('/fonts/8483.svg#8483') format('svg');
+}
